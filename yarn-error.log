@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install koa koa-router koa-bodyparser
+
+PATH: 
+  c:\cmder\bin;c:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;c:\cmder\vendor\conemu-maximus5;c:\cmder\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_162\\bin;C:\Program Files\Java\jdk1.8.0_162\\jre\bin;C:\Program Files\nodejs\;c:\cmder;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseGit\bin;C:\Users\RENDER\AppData\Local\Android\Sdk\tools;C:\Users\RENDER\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Users\RENDER\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\RENDER\AppData\Local\Programs\Python\Python36\;C:\Users\RENDER\AppData\Local\Microsoft\WindowsApps;C:\Users\RENDER\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code Insiders\bin;C:\Users\RENDER\AppData\Local\GitHubDesktop\bin;C:\Users\RENDER\AppData\Local\Microsoft\WindowsApps;C:\Users\RENDER\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;c:\cmder\
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "mockServer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "render",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add koa koa-router koa-bodyparser" instead.
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>
